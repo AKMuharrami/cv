@@ -19,7 +19,7 @@ const email =
     <a class="mailtoui" href='mailto: akmuharrami@gmail.com'>Email</a>
 const whatsapp = <a href='https://wa.me/96896338791'>Whatsapp</a>
 const twitter = <a href='https://twitter.com/_alistiqamah'>Twitter</a>
-const instagram = <a href='https://www.instagram.com/al_ibadiyyah/'>Instagram</a>
+const instagram = <a href='https://www.instagram.com/odev_akmuh/'>Instagram</a>
 const pages = [{
   name:'Packages', route:'/packages'}, {name:'about', route:'/about'}, {name:'empty', route:'/empty'}];
 const settings = [email, whatsapp, twitter, instagram];

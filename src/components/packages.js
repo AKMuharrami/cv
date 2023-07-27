@@ -63,7 +63,7 @@ export default function Packages() {
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{marginLeft:'4.5vh', marginRight:'4.5vh', color:'white', fontSize:'2vh'}}
               > * Note: The domain price is excluded form this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
-              It be known that I won't In Sha Allah charge an additional charge over the price of the domain, and the payment will be a monthly payment.
+              It be known that I won't In Sha Allah charge an additional charge over the price of the domain, and the payment will be a yearly payment.
                 </motion.h2>}
                 {isDesktopOrLaptop && <motion.div className="window"  initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -136,8 +136,8 @@ export default function Packages() {
                       transition={{ duration: 0.2 }}
                       style={{display:'flex'}}
                     >
-                      <h1 style={{width:"15vw", fontSize:'12vh', marginTop:"5vh", marginRight:"5vh", zIndex:0, marginLeft:'-5vw'}}>{selectedTab ? selectedTab.icon : "😋"} <br></br> <h1 style={{zIndex:1,fontSize:'3vh', marginLeft:'3.2vh', marginTop:'-1vh',color:selectedTab.col, textShadow:selectedTab.sha, width:'10vh'}}>{selectedTab ? selectedTab.price : "😋"}</h1></h1>
-                      <h6 style={{fontSize:'2.4vh', width:'69vw'}}>{selectedTab ? selectedTab.body : "😋"}</h6>
+                      <h1 style={{width:"15vw", fontSize:'12vh', marginTop:"5vh", marginRight:"7vh", zIndex:0, marginLeft:'-1vw'}}>{selectedTab ? selectedTab.icon : "😋"} <br></br> <h1 style={{zIndex:1,fontSize:'3vh', marginLeft:'1.2vh', marginTop:'-1vh',color:selectedTab.col, textShadow:selectedTab.sha, width:'10vh'}}>{selectedTab ? selectedTab.price : "😋"}</h1></h1>
+                      <h6 style={{fontSize:'2.1vh', width:'60vw'}}>{selectedTab ? selectedTab.body : "😋"}</h6>
                     </motion.div>
                   </AnimatePresence>
                 </main>
@@ -150,7 +150,7 @@ export default function Packages() {
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{marginLeft:'1.5vh', marginRight:'1.5vh', color:'white'}}
               > * Note: The domain price is excluded form this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
-              It be known that I won't In Sha Allah charge an additional charge over the price of the domain. and the payment will be a monthly payment.
+              It be known that I won't In Sha Allah charge an additional charge over the price of the domain. and the payment will be a yearly payment.
                 </motion.h3>}
                 {isTabletOrMobile && <motion.div className="window"  initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -158,7 +158,7 @@ export default function Packages() {
                     duration: 0.8,
                     delay: .5,
                     ease: [0, 0.71, 0.2, 1.01]}}
-                    style={{height:'40vh', marginTop:'4vh'}} >
+                    style={{height:'35vh', marginTop:'4vh'}} >
                 <nav>
                   <ul id="tul">
                     
@@ -184,8 +184,8 @@ export default function Packages() {
                       transition={{ duration: 0.2 }}
                       style={{display:'flex'}}
                     >
-                      <h1 style={{width:"15vw", fontSize:'12vh', marginTop:"5vh", marginRight:"5vh", zIndex:0, marginLeft:''}}> <Icon path={mdiProgressWrench} size={4} /> <br></br> <h1 style={{zIndex:1,fontSize:'3vh', marginLeft:'1.5vh', marginTop:'-1vh',color:selectedTab.col, textShadow:selectedTab.sha, width:'10vh'}}>25 omr</h1></h1>
-                      <h6 style={{fontSize:'2.4vh', width:'65vw'}}>We also offer a monthly service for your website, adding up to 3 new features on demand, as well as changing the colors and texts and structure of the preexisting features as many times as the customer would like on demand etc.</h6>
+                      <h1 style={{width:"15vw", fontSize:'12vh', marginTop:"5vh", marginRight:"5vh", zIndex:0, marginLeft:''}}> <Icon path={mdiProgressWrench} size={4} /> <br></br> <h1 style={{zIndex:1,fontSize:'3vh', marginLeft:'1vh', marginTop:'-1vh',color:selectedTab.col, textShadow:selectedTab.sha, width:'10vh'}}>25 omr</h1></h1>
+                      <h6 style={{fontSize:'2.2vh', width:'60vw'}}>We also offer a monthly service for your website, adding up to 3 new features on demand, as well as changing the colors and texts and structure of the preexisting features as many times as the customer would like on demand etc.</h6>
                     </motion.div>
                   </AnimatePresence>
                 </main>

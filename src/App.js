@@ -4,7 +4,8 @@ import ResponsiveAppBar from './components/menubar';
 import  Home  from "./components/home";
 import Packages from './components/packages';
 import About from './components/about';
-
+import { inject } from '@vercel/analytics';
+inject();
 function App() {
   return (
     <div className="App">

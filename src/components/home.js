@@ -107,14 +107,14 @@ export default function Home() {
                 />}
                 {isTabletOrMobile &&<TypeAnimation
                     sequence={[
-                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in using html"
+                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in\n using html"
                         ,
                         500,
-                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in using css",
+                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in\n using css",
                         500,
-                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in using Javascript",
+                        "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in\n using Javascript",
                         500,
-                           "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in using React, and its various libraries.",
+                           "Finding a good web developer is not an easy task, especially the one who is proeffecient in using the latest design styles.\n\n I go by the name of Akmuharrami and I'm experienced -praise be to Allah- in\n using React, and its various libraries.",
                         500,
                     ]}
                     deletionSpeed={20}

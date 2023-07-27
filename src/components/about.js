@@ -30,20 +30,20 @@ export default function Team() {
                     <br></br>
             </div>}
             {isTabletOrMobile &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'20vh'}}>
-            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png"  alt=""></img>
+            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png"  alt="" style={{width:'28vw', objectFit:'cover'}}></img>
             <motion.div
             initial={{ y: -10, opacity: 0 }}
             animate={{ y: -20, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.3 }}
             style={{marginTop:'1.5vh'}}>
-                <h4 style={{color:'#F2EEE9', opacity:'1', fontSize:'1.5vh', marginRight:'1vw', marginLeft:'1vw'}}>My name is Asad Al Muharrami <br></br> I live in Muscat - Oman <br></br> I'm self learnt by the blessing of Allah and I beleive that certificates are of no worth if they have no work to back them up, as that is all that matters.<br></br><br></br> I'm capable of designing websites in the following languages:</h4>
+                <h4 style={{color:'#F2EEE9', opacity:'1', fontSize:'1.4vh', marginRight:'1vw', marginLeft:'1vw'}}>My name is Asad Al Muharrami <br></br> I live in Muscat - Oman <br></br> I'm self learnt by the blessing of Allah and I beleive that certificates are of no worth if they have no work to back them up, as that is all that matters.<br></br><br></br> I'm capable of designing websites in the following languages:</h4>
                 <div style={{marginTop:'-1.3vh'}}> 
-                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'8vw',textAlign:'center',lineHeight:2.2}}>HTML</h3></button>
-                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'8vw',textAlign:'center',lineHeight:2.2}}>CSS</h3></button>
+                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'7vw',textAlign:'center',lineHeight:2.2}}>HTML</h3></button>
+                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'7vw',textAlign:'center',lineHeight:2.2}}>CSS</h3></button>
                     <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'8vw',textAlign:'center',lineHeight:2.2}}>Javascript</h3></button>
-                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'8vw',textAlign:'center',lineHeight:2.2}}>React</h3></button>
-                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'17vw',textAlign:'center',lineHeight:2.2}}>Various related libraries</h3></button>
+                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'7vw',textAlign:'center',lineHeight:2.2}}>React</h3></button>
+                    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'13vw',textAlign:'center',lineHeight:2.2}}>Related libraries</h3></button>
                      </div>
             </motion.div>
                     <br></br>
