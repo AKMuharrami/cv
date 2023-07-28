@@ -36,7 +36,7 @@ export default function Team() {
             animate={{ y: -20, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            style={{marginTop:'1.5vh'}}>
+            style={{marginTop:'1.5vh', width:'70v'}}>
                 <h4 style={{color:'#F2EEE9', opacity:'1', fontSize:'1.4vh', marginRight:'1vw', marginLeft:'1vw'}}>My name is Asad Al Muharrami <br></br> I live in Muscat - Oman <br></br> I'm self learnt by the blessing of Allah and I beleive that certificates are of no worth if they have no work to back them up, as that is all that matters.<br></br><br></br> I'm capable of designing websites in the following languages:</h4>
                 <div style={{marginTop:'-1.3vh'}}> 
                     <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'7vw',textAlign:'center',lineHeight:2.2}}>HTML</h3></button>
