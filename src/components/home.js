@@ -3,6 +3,7 @@ import "./a.css"
 import {  useRef} from 'react'
 import {motion, useScroll, Variants} from 'framer-motion'
 import  {TypeAnimation} from 'react-type-animation'
+import { Helmet } from "react-helmet-async";
 export default function Home() {
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
       const isDesktopOrLaptop = useMediaQuery({
@@ -83,7 +84,11 @@ export default function Home() {
       };
       return (
         <div style={{background: '#0B0E13', width: "100%", paddingBottom:'2.5%', zIndex:0}}>
-
+          <Helmet>
+          <title>Omani Web Developer</title>
+          <meta name="description" content="Experienced In HTML CSS Javascript React, ready to design your proffesional website"/>
+          <link rel="canonical" href="/"/>
+          </Helmet>
         {isDesktopOrLaptop &&<img style={{height:"40vh", width:"100%", objectFit: "cover", objectPosition:"0% -9vw", marginTop:65}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg?w=1480" alt="" />}
         {isTabletOrMobile &&<img style={{height:"25vh", width:"100%", objectFit: "cover", objectPosition:"0% -5vw", marginTop:37}} src="https://img.freepik.com/premium-photo/man-sits-desk-front-window-with-lit-up-computer-screen-that-says-cyberpunk_898324-756.jpg" alt="" />}
 

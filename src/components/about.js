@@ -1,6 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import  {TypeAnimation} from 'react-type-animation';
 import { motion, AnimatePresence } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 export default function Team() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
@@ -9,6 +10,11 @@ export default function Team() {
 
     return(
     <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'70px', zIndex:-1, height:'100vh'}}>
+        <Helmet>
+          <title>Asad Al Muharrami</title>
+          <meta name="description" content="I live in Muscat Oman. and I'm capable in designing websites in HTML, CSS, Javascript, React."/>
+          <link rel="canonical" href="/about"/>
+          </Helmet>
         <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'50px', zIndex:-1, height:'8vh'}}></div>
             {isDesktopOrLaptop &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'35vh', direction:'ltr'}}>
             <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png" alt=""></img>
