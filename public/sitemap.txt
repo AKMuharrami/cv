@@ -1,3 +1,6 @@
 https://akmuh.dev/
 https://akmuh.dev/packages
 https://akmuh.dev/about
+https://akmuh.dev/ar
+https://akmuh.dev/ar/packages
+https://akmuh.dev/ar/about
