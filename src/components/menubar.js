@@ -136,7 +136,9 @@ function ResponsiveAppBar() {
               </Button>
             ))}
           </Box>
-
+              <Box>
+                <Button LinkComponent={Link} to={"/ar"}>عربي</Button>
+              </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open contacts">
                 <label style={{cursor: "pointer", fontWeight: 400, fontSize: 19}} onClick={handleOpenUserMenu} >Contact </label>

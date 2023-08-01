@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Icon from '@mdi/react';
 import { mdiProgressWrench } from '@mdi/js';
 import { Helmet } from "react-helmet-async";
+import ResponsiveAppBar from './menubar';
 export default function Packages() {
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
       const isDesktopOrLaptop = useMediaQuery({
@@ -14,6 +15,7 @@ export default function Packages() {
       const [selectedTab, setSelectedTab] = useState(tabs[0]);
       return (
         <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'70px', zIndex:-1}}>
+          <ResponsiveAppBar></ResponsiveAppBar>
           <Helmet>
           <title>We offer various Packages for website development</title>
           <meta name="description" content="We offer 3 packages with an offer of monthly maintanace all within affordable prices in Omani rials."/>
@@ -68,7 +70,7 @@ export default function Packages() {
                     delay: .5,
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{marginLeft:'4.5vh', marginRight:'4.5vh', color:'white', fontSize:'2vh'}}
-              > * Note: The domain price is excluded form this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
+              > * Note: The domain price is excluded from this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
               It be known that I won't In Sha Allah charge an additional charge over the price of the domain, and the payment will be a yearly payment.
                 </motion.h2>}
                 {isDesktopOrLaptop && <motion.div className="window"  initial={{ opacity: 0, scale: 0.5 }}
@@ -155,7 +157,7 @@ export default function Packages() {
                     delay: .5,
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{marginLeft:'1.5vh', marginRight:'1.5vh', color:'white'}}
-              > * Note: The domain price is excluded form this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
+              > * Note: The domain price is excluded from this as it varies based on the desired name, that would be discussed after the contact happens (the lowest is usually 10 Omr). <br></br>
               It be known that I won't In Sha Allah charge an additional charge over the price of the domain. and the payment will be a yearly payment.
                 </motion.h3>}
                 {isTabletOrMobile && <motion.div className="window"  initial={{ opacity: 0, scale: 0.5 }}

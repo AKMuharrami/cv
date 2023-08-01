@@ -4,6 +4,7 @@ import {  useRef} from 'react'
 import {motion, useScroll, Variants} from 'framer-motion'
 import  {TypeAnimation} from 'react-type-animation'
 import { Helmet } from "react-helmet-async";
+import ResponsiveAppBar from './menubar';
 export default function Home() {
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
       const isDesktopOrLaptop = useMediaQuery({
@@ -84,6 +85,7 @@ export default function Home() {
       };
       return (
         <div style={{background: '#0B0E13', width: "100%", paddingBottom:'2.5%', zIndex:0}}>
+          <ResponsiveAppBar></ResponsiveAppBar>
           <Helmet>
           <title>Omani Web Developer</title>
           <meta name="description" content="Experienced In HTML CSS Javascript React, ready to design your proffesional website"/>

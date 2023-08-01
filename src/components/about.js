@@ -2,6 +2,7 @@ import { useMediaQuery } from "react-responsive";
 import  {TypeAnimation} from 'react-type-animation';
 import { motion, AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet-async";
+import ResponsiveAppBar from './menubar';
 export default function Team() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
@@ -10,6 +11,7 @@ export default function Team() {
 
     return(
     <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'70px', zIndex:-1, height:'100vh'}}>
+        <ResponsiveAppBar></ResponsiveAppBar>
         <Helmet>
           <title>Asad Al Muharrami</title>
           <meta name="description" content="I live in Muscat Oman. and I'm capable in designing websites in HTML, CSS, Javascript, React."/>
